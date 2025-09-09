@@ -1,0 +1,35 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+ENV/
+
+# System files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Large dataset files (keep only small sample CSVs in repo)
+data/*.zip
+data/*.tar.gz
+data/*.7z
+data/*.rar
+data/*.xlsx
+data/*.xls
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Colab-specific files
+*.json
+*.ipynb_checkpoints/
